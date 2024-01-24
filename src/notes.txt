@@ -1,0 +1,7 @@
+Code that can be improved:
+==========================
+/** All code should be revised, but the problems stated below should be revised first due to low/poor performance **/
+	- design_hashmap.py
+	- palindrome_permutation.py
+	- valid_anagram.py
+	- binary_search.py
