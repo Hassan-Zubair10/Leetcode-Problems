@@ -24,14 +24,14 @@ class Solution:
             prev = current
             current = current.next
             counter += 1
-            
+
         while counter <= right:
             next = current.next
             current.next = prev
             prev = current
             current = next
             counter += 1
-        
+
         if left != 1:
             new_tail.next = current
             node_before_left.next = prev
@@ -40,4 +40,4 @@ class Solution:
             return prev
 
         return head
-        
+
